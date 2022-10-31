@@ -1,0 +1,380 @@
+body{
+    margin: 0px;
+    background-color: #1e252d;
+}
+
+.head{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 4.5fr 1fr;
+    grid-template-rows: 8fr 0.6fr;
+    background: url(/assets/images/bg.jpg), no-repeat;
+    background-color: #212931;
+    background-size: 100vw;    
+    height: 52vw;
+    background-blend-mode: overlay;
+    grid-template-areas:"head1 head2 head3"
+                        "head4 head4 head4"            
+}
+
+.head1{
+    grid-area: head1;
+}
+.head .head2{
+    grid-area: head2;
+    flex-direction: column;
+    color: #ffffff;
+    display: grid;
+    grid-template-rows: 4.5fr 5.5fr;
+}
+.head3{
+    grid-area: head3;
+}
+
+.head4{
+    grid-area: head4;
+    display: flex;
+    background-color: gray;
+    margin: 0% 12%;
+}
+
+
+.headgrid2 h1{
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+    font-size: 4.9vw;
+    text-align: center;
+    margin: 0px;
+    padding-right: 1vw;
+    padding-left: 1vw;  
+}
+
+.headgrid2 p{
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.48vw;
+    text-align: center;
+    line-height: 1.9;
+    padding-right: 2vw;
+    padding-left: 2vw; 
+}
+
+#downp{
+    font-size: 3vw;
+    margin: 0px;
+}
+
+.head4 .nav{
+    display: flex;
+    margin: 0.2vw;
+    padding: 0px;
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+    flex-grow: 1;
+    align-items: center;
+}
+
+
+.head4 .nav li{
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 1vw;
+    padding: 1vw 1vw;
+}
+
+.head4 .nav li:hover{
+    color: black;
+    background-color: white;
+}
+
+.head4 .nav-right{
+    flex-shrink: 0;
+    display: flex;
+    margin: 0.2vw;
+    padding: 0px;
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+    align-items: center;
+}
+
+.head4 .nav-right li{
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 1.1vw;
+    padding: 1vw 1vw;
+}
+
+.head4 .nav-right li:hover{
+    color: black;
+    background-color: white;
+}
+
+
+/*THIS IS MIDDLE PART OF PROJECT*/
+
+.middle{
+    background-color: #ffffff;
+    margin: 0px 12%;
+    display: grid;
+    grid-template-rows: 4.6fr 5.4fr;
+}
+
+.middleone{
+    display: grid;
+    grid-template-rows: 35% 65%;
+}
+
+.date{
+    display: grid;
+    grid-template-columns: 4fr 2fr 4fr;
+}
+
+.date .border{
+    border-bottom: 0.2vw solid gray;
+    align-self: center;
+}
+
+.date p{
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.48vw;
+    text-align: center;
+    align-self: center;
+    margin: 2vw 0vw;
+}
+
+.midwrite h1{
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+    font-size: 4.9vw;
+    text-align: center;
+    padding-right: 1vw;
+    padding-left: 1vw;  
+    font-weight: bold;
+    margin: 0vw;
+}
+
+.midwrite p{
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.48vw;
+    text-align: center;
+    line-height: 1.9;
+    padding-right: 15vw;
+    padding-left: 15vw; 
+}
+
+.middletwo{
+    display: grid;
+    grid-template-rows: 7fr 3fr;
+}
+
+.imgpic{
+    padding: 0% 10%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.fstory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 40%;
+}
+
+.fstory p{
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+    font-size: 1.4vw;
+    text-align: center;
+    line-height: 1.9;
+    border: 0.3vw solid #212931;
+    padding: 0.6vw 1vw;
+}
+
+/*THIS IS CONTENT PART OF PROJECT*/
+
+.content{
+    background-color: #ffffff;
+    margin: 0px 12%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr; 
+}
+
+.contents{
+    display: flex;
+    flex-direction: row;
+}
+
+.maincontent{
+
+}
+
+.maincontent p{
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.35vw;
+    text-align: center;
+    line-height: 1.9;
+}
+
+.maincontent h1{
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+    font-size: 2.1vw;
+    text-align: center;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    margin-bottom: 8%;
+    margin-top: 4%;
+}
+
+.mainimg{
+    padding: 0% 8%;
+}
+
+.mainfstory{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+
+.mainfstory p{
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    line-height: 1.5;
+    border: 0.25vw solid #212931;
+    padding: 0.6vw 1vw;
+}
+
+#id1{
+    border-top: 0.1vw solid gray;
+    border-right: 0.05vw solid gray;
+    border-bottom: 0.1vw solid gray;
+}
+
+#id2{
+    border-top: 0.1vw solid gray;
+    border-left: 0.05vw solid gray;
+    border-bottom: 0.1vw solid gray;
+}
+
+#id3{
+    border-right: 0.05vw solid gray;
+}
+
+#id4{
+    border-left: 0.05vw solid gray;
+}
+
+#id5{
+    border-top: 0.1vw solid gray;
+    border-right: 0.05vw solid gray;
+    border-bottom: 0.1vw solid gray;
+}
+
+#id6{
+    border-top: 0.1vw solid gray;
+    border-left: 0.05vw solid gray;
+    border-bottom: 0.1vw solid gray;
+}
+
+
+/*THIS IS BOTTOM PART OF PROJECT*/
+
+.bottom{
+    background-color: #f7f7f7;
+    margin: 0% 12% 12% 12%;
+    height: 35vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #1e252d;
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+}
+
+.bottomleft{
+    padding: 8% 10%;
+    border-right: 0.05vw solid gray;
+}
+
+.bottomleft input{
+    margin-bottom: 3.5%;
+    margin-top: 1.4%;
+}
+
+.bottomleft label{
+    font-size: 0.8vw;
+    font-weight: 600;
+}
+
+#send{
+    font-size: 0.8vw;
+    font-weight: 600;
+    padding: 1vw 2vw;
+}
+
+#msg{
+    height: 25%;
+    width: 100%;
+}
+
+#name{
+    width: 100%;
+    height: 7%;
+}
+
+#email{
+    width: 100%;
+    height: 7%;
+}
+
+.bottomright{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    font-size: 1.1vw;
+}
+
+.address{
+    display: grid;
+    grid-template-columns: 0.35fr 0.65fr;
+    border-bottom: 0.05vw solid gray;
+    border-left: 0.05vw solid gray;
+}
+
+.phone{
+    display: grid;
+    grid-template-columns: 0.35fr 0.65fr;
+    border-bottom: 0.05vw solid gray;
+    border-left: 0.05vw solid gray;
+}
+
+.email{
+    display: grid;
+    grid-template-columns: 0.35fr 0.65fr;
+    border-bottom: 0.05vw solid gray;
+    border-left: 0.05vw solid gray;
+}
+
+.social{
+    display: grid;
+    grid-template-columns: 0.35fr 0.65fr;
+    border-left: 0.05vw solid gray;
+}
+
+.part1{
+    font-weight: 600;
+    font-size: 0.9vw;
+    align-self: center;
+    justify-self: center;
+}
+
+.part2{
+    align-self: center;
+    justify-self: start;
+}
+
+.socialhandles{
+    align-self: center;
+    justify-self: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5vw;
+}
