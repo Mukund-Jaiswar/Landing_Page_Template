@@ -8,7 +8,7 @@ body{
     justify-content: center;
     grid-template-columns: 1fr 4.5fr 1fr;
     grid-template-rows: 8fr 0.6fr;
-    background: url(/assets/images/bg.jpg), no-repeat;
+    background: url(images/bg.jpg), no-repeat;
     background-color: #212931;
     background-size: 100vw;    
     height: 52vw;
@@ -201,10 +201,6 @@ img{
 .contents{
     display: flex;
     flex-direction: row;
-}
-
-.maincontent{
-
 }
 
 .maincontent p{
